@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- font awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- external CSS -->
+  <link rel="stylesheet" href="Level_1Homepage.css">
+
+
+
+  <title>Level 1</title>
+</head>
+
+<body>
+
+  <div class="container-fluid whole-content">
+    <nav class="navbar navbar-expand-lg  ">
+      <a class="navbar-brand" href="#">Logo</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="Level_1Homepage.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Logout</a>
+        </li>
+      </ul>
+
+    </nav>
+
+    <div class="container-fluid form rounded">
+
+      <div class="form-navbar">
+        <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">New Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Already Registered</a>
+          </li>
+
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <!-- New Registration -->
+          <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <div class="form-content">
+              <form>
+
+                <div class="row form-row">
+                  <div class="col-md-6">
+                    <div class="input-group ">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">First Name:</span>
+                      </div>
+                      <input name="Fname" id="Fname" type="text" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="input-group ">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Last Name:</span>
+                      </div>
+                      <input name="Lname" id="Lname" type="text" class="form-control">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row form-row">
+                  <div class="col-md-6">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Aadhaar number</span>
+                      </div>
+                      <input name="Aadhaar" id="Aadhaar" type="number" class="form-control" maxlength="12">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="input-group ">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">PAN</span>
+                      </div>
+                      <input name="PAN" id="PAN" type="text" class="form-control" maxlength="10">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row form-row">
+                  <div class="col-md-6">
+                    <div class="input-group ">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Date of Birth</span>
+                      </div>
+                      <input type="date" id="DOB" name="DOB" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Gender:</span>
+                      </div>
+                      <select class="form-control" id="Gender" name="Gender" required="Please fill this">
+                        <option selected disabled>Select Gender</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row form-row justify-content-center">
+                  <div class="col-sm-12 ">
+                    <div class="input-group mb-3 input-group-sm">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">Address:</span>
+                      </div>
+                      <textarea type="text" id="Address" name="Address" class="form-control" required="Please fill this" rows="3"></textarea>
+                    </div>
+                  </div>
+                </div>
+
+
+              </form>
+
+              <div class="button-container ">
+                <button type="button" class="btn btn-outline-primary btn-lg" >Refresh</button>
+
+                <button type="button" class="btn btn-success btn-lg">Submit</button>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Already Registered -->
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+            <div class="form-content mt-4">
+
+              <div class="input-group">
+
+                <input class="form-control"  type="text" placeholder="Search UID" aria-label="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-primary" id="Search-btn" name="Search-btn">
+                        Search
+                    </button>
+                </div>
+              </div>
+
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
