@@ -1,0 +1,25 @@
+Create:-
+virtualenv venv1 -p /c/Users/Asus/AppData/Local/Programs/Python/Python39/python.exe
+
+source C:/Users/Asus/Desktop/Aditya\ Jyot/Django/venv1/Scripts/activate
+
+pip install django==3.2.10
+
+deactivate
+
+create proj
+mkdir src
+cd src
+django-admin startproject djangoData .
+
+python manage.py runserver
+python manage.py migrate
+
+python manage.py createsuperuser
+
+python manage.py startapp xyz
+
+
+python manage.py makemigrations
+python manage.py migrate
+

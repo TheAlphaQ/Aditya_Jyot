@@ -1,0 +1,44 @@
+body {
+  background-color: #e3fdfd;
+}
+
+/* navbar */
+
+/* form body and navbar*/
+.whole-content {
+  padding: 3% 15%;
+}
+
+/* form */
+.form {
+  margin-top: 2.5rem;
+  background-color: #fff;
+  border: 2px solid #3edbf0;
+}
+
+.form-navbar {
+  padding: 2%;
+}
+
+.form-content {
+  margin-top: 1rem;
+}
+
+.form-row {
+  margin: 2rem 0;
+}
+
+.button-container {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.button-container > .btn {
+  margin: 0 1rem;
+}
+
+/* override */
+
+.input-group {
+  padding: 0 1rem;
+}
