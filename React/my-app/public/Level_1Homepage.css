@@ -1,9 +1,14 @@
 body {
-  background-color: #e3fdfd;
+  background-color: #2c3a47;
   font-family: "Montserrat", sans-serif;
 }
 
 /* navbar */
+.navbar {
+  background-color: white;
+  display: flex;
+  padding: 1.17%;
+}
 
 /* form body and navbar*/
 .whole-content {
@@ -12,13 +17,14 @@ body {
 
 /* form */
 .form {
-  margin-top: 2.5rem;
+  margin-top: 0;
   background-color: #fff;
-  border: 2px solid #3edbf0;
+  border-right: 2px solid #3edbf0;
+  border-left: 2px solid #3edbf0;
 }
 
 .form-navbar {
-  padding: 2%;
+  padding: 0%;
 }
 
 .form-content {
@@ -40,6 +46,12 @@ body {
 
 /* override */
 
-.input-group {
+.input-group1 {
+  padding: 0 1rem;
+}
+.input-group2 {
+  padding: 0 1rem;
+}
+.input-group3 {
   padding: 0 1rem;
 }
