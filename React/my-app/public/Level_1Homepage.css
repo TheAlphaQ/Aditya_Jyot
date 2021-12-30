@@ -19,8 +19,6 @@ body {
 .form {
   margin-top: 0;
   background-color: #fff;
-  border-right: 2px solid #3edbf0;
-  border-left: 2px solid #3edbf0;
 }
 
 .form-navbar {
@@ -54,4 +52,11 @@ body {
 }
 .input-group3 {
   padding: 0 1rem;
+}
+
+/* media queries */
+@media only screen and (max-width: 425px) {
+  .input-group {
+    margin-top: 1rem;
+  }
 }
