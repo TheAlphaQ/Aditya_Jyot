@@ -14,9 +14,8 @@ function Homepage() {
     <div className="container-fluid whole-content">
       <Nav />
       <Switch>
-
       <Route path ="/" exact><Form1 /></Route>
-      <Route path="/2" exact><Form2 /></Route>
+      <Route path="/form2" exact><Form2 /></Route>
       </Switch>
     </div>
     </Router>

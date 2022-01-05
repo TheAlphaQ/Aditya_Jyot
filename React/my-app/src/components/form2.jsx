@@ -113,7 +113,7 @@ function Form2() {
                     </div>
                   </div>
                   <div className="row form-row">
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                       <div className="input-group ">
                         <div className="input-group-prepend">
                           <span className="input-group-text">
@@ -139,7 +139,7 @@ function Form2() {
                         </select>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-7">
                       <div className="input-group ">
                         <span className="input-group-text">
                           How long has your Diabetes been treated this way?
@@ -494,7 +494,7 @@ function Form2() {
                     </div>
                   </div>
                   <div className="row form-row">
-                    <div className="col-md-4">
+                    <div className="col-md-6">
                       <div className="input-group ">
                         <div className="input-group-prepend">
                           <span className="input-group-text">
@@ -515,7 +515,7 @@ function Form2() {
                         </select>
                       </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-6">
                       <div className="input-group ">
                         <div className="input-group-prepend">
                           <span className="input-group-text">Eye</span>

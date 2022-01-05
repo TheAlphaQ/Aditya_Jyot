@@ -1,4 +1,5 @@
 import React from "react";
+import {Link } from "react-router-dom";
 
 function Form1() {
   return (
@@ -590,9 +591,12 @@ function Form1() {
                     Refresh
                   </button>
 
+                  <Link to="/form2">
                   <button type="button" className="btn btn-success btn-lg">
                     Submit
                   </button>
+                  </Link>
+                  
                 </div>
               </div>
             </div>
@@ -682,10 +686,12 @@ function Form1() {
                   >
                     Refresh
                   </button>
-
+                  
+                  
                   <button type="button" className="btn btn-success btn-lg">
                     Submit
                   </button>
+                  
                 </div>
               </div>
             </div>
